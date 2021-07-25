@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Formularios</title>
+</head>
+<body>
+   <!-- Formulario inicial-->
+   <!-- <form action="email@email.com" method="get">
+		<p><font face="CALIBRI">Nome: <input type=TEXT  name="nome" size="25" maxlenght="50"></p>
+		<p>Estado: <input type=text name="uf" size="2" value="SP"></font></p>
+    </form> -->
+
+    <form action="email@email.com" method="get">
+    <!-- Utilizando Radio button-->
+		<p><font face="CALIBRI">Nome: <input type=text name="nome" size="25" maxlenght="50"></p>
+		<p>Nº do cartão de crédito <input type=text name="nun_cartao"  size="16"></p>
+		<p>Senha: <input type=password name="senha" size="6"></p>
+		<p>Selecione a bandeira do cartão de crédito:<br>
+            <input type=radio name="selecao-cartao" checked>VISA
+            <br>
+            <input type=radio name="selecao-cartao">MASTERCARD
+        </p>
+        <!-- Utilizando Checkbox-->
+        <p>Selecione horário de entrega:<br>
+			<input type=checkbox name="horario1" size="1">8h às 12h<br>
+			<input type=checkbox name="horario2" size="1">13h às 15h<br>
+			<input type=checkbox name="horario2" size="1">16h às 18h</p>
+        <!-- Utilizando Textarea-->
+            <p>Endereço: <input type=text  name="end"  size="30"</p>
+            <p>Referência: <textarea name="ref" rows="2" cols= "40"></textarea></p>
+        <!--Utilizando submit e limpar campos do formulario-->
+            <input type=submit value="Enviar"><input type=reset value="Limpar">
+        <!--Validaçao de cpf-->
+            <input type=hidden name="cpf" value="verdadeiro">
+            <br>
+            <!--Exemplo com Lista de Opçoes -->
+                <select name="cidades" size="4">
+                    <option>Londres 
+                    <option>Paris
+                    <option>Roma 
+                    <option>Madri
+                </select>
+            <!--Exemplo com Menu-->
+            <select name="cidades">
+                <option>Londres 
+                <option>Paris
+                <option>Roma 
+                <option>Madri
+            </select>
+	
+        </form>
+</body>
+</html>

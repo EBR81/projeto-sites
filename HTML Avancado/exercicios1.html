@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Formularios</title>
+</head>
+<body>
+    <form action="email@email.com" method="get">
+    <!-- Utilizando Radio button-->
+		<p><font face="CALIBRI">Nome: <input type=text name="nome" size="25" maxlenght="50"></p>
+           <p> <font face="calibri">E-mail: <input type="email" name="email" size="25" maxlenght="50" required></font></p>
+			<p>Sexo:
+            <input type=radio name="selecao-sexo" checked>MASCULINO
+            <input type=radio name="selecao-sexo">FEMININO
+        </p>
+        <p>RG: <input type="text" name="rg" inputmode="number" size="25" minlength="8" maxlength="8"></p>
+        <p>CPF: <input type="text" name="cpf" inputmode="number" size="25" minlength="11" maxlength="11"></p>
+        <p>Login: <input type="text"  name="username" size="25"> </p>
+        <p>Senha: </label> <input type="password" name="password" size="25" required> </p>
+        <!--Utilizando submit e limpar campos do formulario-->
+            <input type=submit value="Enviar"><input type=reset value="Limpar">
+        <!--Validaçao de cpf-->
+            <input type=hidden name="cpf" value="verdadeiro">
+            <br>
+    </form>
+</body>
+</html>
