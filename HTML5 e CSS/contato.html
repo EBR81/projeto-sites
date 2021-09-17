@@ -28,12 +28,16 @@
         <form name=meu_form id="meu_form">
             <p class="nome">
                 <label for=nome>Nome:</label><br>
+                <input type="text" id="nomeid" placeholder="Ex: Fulano da Silva" required="required" name="nome" />
             </p>
             <p class="fone">
                 <label for="fone">Fone:</label><br>
+                <input type="phone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" required="required" name="fone" />
             </p>
+
             <p>
                 <label for="email">Email:</label><br>
+                <input type="email" id="emailid" placeholder="fulano@mail.com" nome="email" required="required"/>
             </p>
             <p>
                 <textarea placeholder="mensagem" required="required"></textarea>
@@ -42,7 +46,16 @@
                 <button type="submit" form="meu_form">Enviar</button>       
             </p>
         </form>
+       <!-- <div id="conta-data">
+            <h4>Code - Desenvolvimento de sites</h4>
+             <h5><img src="imagens\icoadress.png" alt="endereço"><br>Avenida Novos Conhecimento nº 2016</h5>
+             <h5><img src="imagens\icoTelefone.png" alt="telefone"><br>+ 55 11 9999-9999</h5>
+             <h5><img src="imagens\icoContato.png" alt="email"><br>contato@code.com.br</h5>
+             <h5><img src="imagens\icoface.png" alt="facebook"><br>facebook.com\codedev</h5>
+             <h5><img src="imagens\icoinsta.png" alt="instagram"><br>@codedev</h5>
+             </div>-->
     </section>
+
     </div>
     </body>
     </html>

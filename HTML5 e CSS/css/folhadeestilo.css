@@ -14,7 +14,8 @@ header{
     height: 100px;
     background-color:#fff;
     position: relative;
-    top: 0;}
+    top: 0;
+}
 
 .logo{
     position: absolute;
@@ -44,18 +45,26 @@ nav ul li a {
     text-decoration: none; 
     color:#bbb;
 }
-nav ul li a :hover {
+nav ul li a:hover {
     color:#b13030
 }
+
 /* definir as propriedades da imagem principal */
-#banner{width: 100%;}
-#banner img{width: 100%; margin-bottom: 0;}
+#banner{
+    width: 100%;
+}
+
+#banner img{
+    width: 100%; 
+    margin-bottom: 0;
+}
+
 /*definir as propriedades dos pop'ups*/
 .modalDialog {
     position: fixed;
     font-family:'verdana';
     top: 0;
-    right: 0
+    right: 0;
     bottom: 0;
     left: 0;
     background: rgba(181, 9, 9, 0.8);
@@ -109,7 +118,7 @@ nav ul li a :hover {
 }
 
 footer {
-width: 100%; 
+width:100%; 
 height: 18%; 
 background-color: #b50909; 
 color: #fff; 
@@ -136,7 +145,7 @@ footer .footer-text a{
 /*Definir as propriedades de imagens de titulo */
 
 .img-titulo {
-    width: 45%;
+    width: 50%;
     height: auto ;
     margin-bottom: 10px;
     position: relative;
@@ -144,12 +153,12 @@ footer .footer-text a{
     margin-right: 5%
 }
 .img-titulo img {
-    width: 45%; 
+    width: 50%; 
     margin-left: 10%;
     margin-top: 50px;
-
 }
 /*definir propriedades da pagina cliente*/
+
 #clientes-code{ 
     width: 45%;
     position: relative;
@@ -177,3 +186,77 @@ footer .footer-text a{
     text-align: center;
 }
 #clientes-code .config-clientes p a {color: #111;}
+/* definir as propriedades da página contato */
+
+#txt-contato {
+    width: 100%;
+    height: 100%;}
+
+
+#txt-contato form {
+    width: 96%;
+    position: relative;
+    float: left;
+    background-color: #fff;
+    padding: 2%;
+    top: 5%;
+    min-height: 400px;
+}
+
+#txt-contato form label {
+    font-weight: bold;
+}
+#txt-contato form input {
+    max-width: 100%;
+    width: 99%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: solid #b50909 1px;
+    padding-left: 1%;
+}
+#txt-contato form textarea {
+    max-width: 100%;
+    width: 99%;
+    border: solid #b50909 1px;
+    padding-left: 1%;
+    min-height: 100px;
+}
+
+#txt-contato form button {
+    width: 30%; 
+    height: auto;
+    cursor: pointer;
+    background-color: #b50909;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 15px 0 15px 0;
+    margin-left: 35%;
+    margin-top: 1%;}
+
+
+#txt-contato #conta-data{ 
+    width: 26%;
+    position: relative;
+    float: left;
+    padding: 2%;
+    background-color: #b50909;
+    color: #fff;
+    top: 5%;
+    margin-left: 1.5%;
+    height:400px;
+    text-align: center;
+}
+
+#txt-contato #conta-data h4{ 
+    color: #fff;
+    text-align: center;
+}
+
+#txt-contato #conta-data h5{ 
+    margin-top: 6%;
+    margin-bottom: 4%;
+    vertical-align: middle;}
+
+#txt-contato #conta-data h5 img{
+    width: 50px;}
